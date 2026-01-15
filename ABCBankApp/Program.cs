@@ -41,7 +41,8 @@ namespace ABCBankApp
 
 
             #region Current class object
-
+            CurrentAcc currentAcc = new CurrentAcc();
+            Console.WriteLine(currentAcc);
             #endregion
 
 
