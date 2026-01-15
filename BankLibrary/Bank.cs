@@ -17,7 +17,8 @@
         public double Balance
         {
             get { return balance; }
-            protected set { balance = value; }
+           protected  set {            
+                balance = value; }
         }
 
         private int accountNo;

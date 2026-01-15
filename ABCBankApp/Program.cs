@@ -41,11 +41,12 @@ namespace ABCBankApp
 
 
             #region Current class object
-            CurrentAcc currentAcc = new CurrentAcc();
+            CurrentAcc currentAcc = new CurrentAcc("user",10000);
             Console.WriteLine(currentAcc);
             #endregion
 
-
+            SavingsAcc savingsAcc = new SavingsAcc();
+            
 
 
         }
